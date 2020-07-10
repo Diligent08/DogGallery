@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+
+@keyframes spin {
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+  body{
+   padding:0;
+   margin:0;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  }
+
+  nav {
+    background-color: #ff4136;
+    color: white;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    list-style: none;
+    font-size: x-large;
+  }
+  
+  .spinner
+  {
+      font-size: 50px;
+      text-align: center;
+      animation:spin 1s linear infinite;
+      display: none;
+      margin-top: 15%;
+  }
+  .dog-img
+  {
+      display: none;
+     
+  }
+  .show
+  {
+      display:block;
+      margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+ 
+ select{
+     background-color: rgb(250, 245, 250);
+     font-size: 25px;
+     font-family: cursive;
+     border:1px solid brown;
+     color: purple;
+ }
+ h1{
+     text-align: center;
+ }
+ .doggo
+ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    overflow: hidden;
+ }
